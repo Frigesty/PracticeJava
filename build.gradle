@@ -1,0 +1,25 @@
+plugins {
+    id "java"
+}
+
+group = "ru.frigesty"
+version = "1.0"
+
+repositories {
+    mavenCentral()
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+
+}
+
+test {
+    useJUnitPlatform()
+}
