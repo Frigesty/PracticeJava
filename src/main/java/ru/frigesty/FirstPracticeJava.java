@@ -56,6 +56,9 @@ public static void main(String... args) {
         System.out.println(b + " >= " + s + " = " + (b >= s));
         System.out.println(b + " <= " + (s + 26) + " = " + (b <= (s+26)));
         System.out.println(b + " != " + b + " = " + (b != b));
+        System.out.println("Пример сравнения float и double");
         System.out.println(f + " == " + d + " = " + (f == d));
+        System.out.println("Комбинаций типов данных (int и double)");
+        System.out.println(i + " + " + d + " = " + (i + d));
     }
 }
