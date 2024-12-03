@@ -11,11 +11,14 @@ public static void main(String... args) {
         short aShort = 0; // 16b  -32768 +32767
         int aInt = 0;     // 32b  -2,147,483,648 до 2,147,483,647
         long aLong = 0L;  // 64b  -9,223,372,036,854,775,808 до 9,223,372,036,854,775,807
+
         // Типы с плавающей точкой
         float aFloat = 0.0F;
         double aDouble = 0.0;
+
         // Символьный
         char aChar = 'a';
+
         // Логически тип
         boolean aBoolean = true;
 
